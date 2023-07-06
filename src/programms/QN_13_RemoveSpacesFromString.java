@@ -6,12 +6,17 @@ public class QN_13_RemoveSpacesFromString {
 		
 		String str = "The given string has spaces   ";
 		
-		// str = str.replaceAll("\\s", "");
+		char[] arr = str.toCharArray();
 		
-		str = str.replace(" ", "");
+		String wos = "";
 		
-		System.out.println(str);
+		for (char ch : arr) {
+			if(ch != ' ') {
+				wos = wos + Character.toString(ch);
+			}
+		}
 		
+		System.out.println(wos);
 	}
 
 }
