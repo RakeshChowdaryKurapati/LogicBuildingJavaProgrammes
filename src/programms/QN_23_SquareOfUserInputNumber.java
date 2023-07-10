@@ -8,6 +8,7 @@ public class QN_23_SquareOfUserInputNumber {
 	public static void main(String[] args) {
 
 		squareOfNumber();
+		
 
 	}
 
