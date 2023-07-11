@@ -29,7 +29,25 @@ public class QN_25_AcceptThreeNumbersFromUserAndPrintThemInAscendingAndDescendin
 		}
 
 		Arrays.sort(ob);
-		System.out.print("Ascending Order of three numbers  ");
+//		System.out.print("Ascending Order of three numbers  ");
+//		boolean flag;
+//		int n = ob.length;
+//		for(int i = 0; i<=n-1; i++) {
+//			flag = false;
+//			for(int j =0; j<n-i;j++) {
+//				if(ob[j]>ob[j+1]) {
+//					double temp = ob[j] ;
+//					ob[j] = ob[j+1];
+//					ob[j+1] = temp;
+//					flag = true;
+//					
+//				}
+//			}
+//			if (!flag) {
+//                break;
+//            }
+//		}
+	//	System.out.print("Ascending Order of three numbers  ");
 
 		for(Object asc : ob) {
 			System.out.print(asc + " ,");
